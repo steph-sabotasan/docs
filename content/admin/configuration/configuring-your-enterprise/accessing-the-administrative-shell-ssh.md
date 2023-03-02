@@ -27,6 +27,12 @@ If you have SSH access to the administrative shell, you can run {% data variable
 
 ## Enabling access to the administrative shell via SSH
 
+{% note %}
+
+Note: Although it is possible to create a VM in Azure and/or AWS by authenticating with SSH passwords instead of keys, accessing Github Enterprise using this method is not permitted, and it is recommended to use keys instead.
+
+{% endnote %}
+
 To enable administrative SSH access, you must add your SSH public key to your instance's list of authorized keys. For more information, see "[AUTOTITLE](/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent)."
 
 {% tip %}
